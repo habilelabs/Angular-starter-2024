@@ -1,0 +1,15 @@
+<header class="header">
+    <div class="header-left">
+       <img
+        src="../../../../assets/images/logoHL.png"
+        (click)="goTo('')"
+        alt="logoHL" />
+        <div class="buttons-left">
+          <button mat-button (click)="goTo('home')" color="accent">Home</button>
+          <button mat-button (click)="goTo('about')" color="accent">About</button>
+        </div>
+    </div>
+    <div class="buttons-right">
+        <button mat-stroked-button (click)="goTo('login')" color="warn">Login</button>
+    </div>
+</header>
