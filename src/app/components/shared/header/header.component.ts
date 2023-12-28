@@ -13,6 +13,6 @@ export class HeaderComponent {
   constructor(private router: Router) {}
 
   goTo = (url: any) => {
-    this.router.navigate(url);
+    this.router.navigate([url]);
   };
 }
